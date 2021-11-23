@@ -804,8 +804,10 @@ ul {
 
 .modal .button-modal{
   position: absolute;
+  display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  
   top: 8px;
   right: 8px;
   width: 30px;
@@ -816,6 +818,7 @@ ul {
   color: #212121;
 }
 
-.button-modal-icon{
-  fill: currentColor;
+.close-icon{
+  width: 11px;
+  height: 11px;
 }
