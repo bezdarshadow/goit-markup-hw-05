@@ -818,7 +818,6 @@ ul {
   color: #212121;
 }
 
-.close-icon{
-  width: 11px;
-  height: 11px;
+.close-btn{
+  fill: currentColor;
 }
